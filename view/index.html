@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+       
+
+   <link rel="stylesheet" href="stylesheets/style.css">
+    </head>
+    <body>
+      <div class="container-fluid ">
+        <h1>Back End MicroServices</h1>
+        <p>Free Code Camp Projects for Back End Cevelopment Certification! </p>
+        <div class="row justify-content-center p-5">
+         
+          <div class="col-4 me-3" id="shortUrl">
+
+            <div class="card text-black bg-light m-3" >
+              <div class="card-header">URL Shortener</div>
+              <div class="card-body">
+                <span><img src="./images/url.png" alt="url"></span>
+              </div>
+            </div>
+
+          </div>
+          
+          
+
+        <div class="col-4 ms-3" id="timeStamp">
+
+          <div class="card text-black bg-light m-3" >
+            <div class="card-header">Time Stamp</div>
+            <div class="card-body">
+              <span><img src="./images/timetable.png" alt="time-stamp"></span>
+            </div>
+          </div>
+         
+        </div>
+
+      </div>
+
+        <div class="row justify-content-md-center  p-5">
+          <div class="col-4 me-3" id="fileUploadAuth">
+
+            <div class="card text-black bg-light m-3" >
+              <div class="card-header">File Analyser</div>
+              <div class="card-body">
+                <span><img src="./images/file.png" alt="file"></span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-4 ms-3" id="reqHeader">
+
+            <div class="card text-black bg-light m-3" >
+              <div class="card-header">Who Am I</div>
+              <div class="card-body">
+                <span>
+                  <img src="./images/whoami.png" alt="whoami-image">
+                </span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="footer">
+          <p>
+           <a href="https://www.freecodecamp.org" >freeCodeCamp</a> API projects by <a href="https://github.com/abroroo"> abroroo</a> 
+          </p>
+        </div>
+      </div>
+    
+        
+        
+      <script type="text/javascript">
+        document.getElementById("fileUploadAuth").onclick = function () {
+            location.href = "http://localhost:3000/file-auth";
+        };
+
+        document.getElementById("reqHeader").onclick = function () {
+            location.href = "http://localhost:3000/req-header";
+        };
+
+        document.getElementById("timeStamp").onclick = function () {
+            location.href = "http://localhost:3000/time-stamp";
+        };
+
+        document.getElementById("shortUrl").onclick = function () {
+            location.href = "http://localhost:3000/short-url";
+        };
+
+      
+
+    </script>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Nanum+Gothic&family=Nanum+Myeongjo&family=Oranienbaum&family=Vidaloka&display=swap');
+
+
+body {
+  padding: 50px;
+ /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  text-align: center;
+  font-family: 'Jost', sans-serif;/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Oranienbaum', serif;
+font-family: 'Vidaloka', serif;*/
+}
+
+h1 {
+  font-family: 'Vidaloka', serif;
+}
+
+img {
+  border-radius: 10%;
+}
+.col {
+ justify-content: center;
+}
