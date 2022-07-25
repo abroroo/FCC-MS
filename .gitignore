@@ -1,2 +1,6 @@
 .env
 node_modules/ 
+components\fileUpload&LocalAuthMS\fileUploadSessionLocalAuth\cryptography\id_rsa_priv.pem
+components\fileUpload&LocalAuthMS\fileUploadSessionLocalAuth\cryptography\id_rsa_pub.pem
+components\fileUpload&LocalAuthMS\fileUploadSessionLocalAuth\JWT\priv_key.pem
+components\fileUpload&LocalAuthMS\fileUploadSessionLocalAuth\JWT\pub_key.pem
